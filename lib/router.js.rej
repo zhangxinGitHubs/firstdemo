@@ -1,0 +1,13 @@
+diff a/lib/router.js b/lib/router.js	(rejected hunks)
+@@ -50,10 +50,9 @@
+ });
+ 
+ Router.route('/', {
+-    name: 'home',
++    name: 'postsList',
+     controller: NewPostsController
+ });
+-
+ Router.route('/new/:postsLimit?', {name: 'newPosts'});
+ 
+ Router.route('/best/:postsLimit?', {name: 'bestPosts'});
